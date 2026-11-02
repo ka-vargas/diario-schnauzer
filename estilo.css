@@ -1,3 +1,4 @@
+
 /* DISEÑO GENERAL */
 
 body {
@@ -15,8 +16,7 @@ h1 {
     font-size: 42px;
     color: #292929;
     padding: 25px;
-} 
-
+}
 
 /* PORTADA */
 
@@ -33,7 +33,7 @@ h1 {
 .portada p {
     font-size: 16px;
     line-height: 1.7;
-	 max-width: 750px;
+    max-width: 750px;
     margin: 15px auto;
     text-align: center;
 }
@@ -47,6 +47,8 @@ h1 {
     margin: 25px auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
 }
+
+/* MENU DE NAVEGACION */
 
 .menu {
     text-align: center;
@@ -65,15 +67,8 @@ h1 {
     color: #D8C5AE;
 }
 
-.portada img {
-    width: 60%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 15px;
-    display: block;
-    margin: 25px auto;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
-}
+/* CREDITO DEL VIDEO */
+
 .credito-video {
     text-align: center;
     font-size: 13px;
@@ -86,10 +81,13 @@ h1 {
     font-weight: bold;
 }
 
+/* GALERIA DE IMAGENES */
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    align-items: start;
     max-width: 1000px;
     margin: 30px auto;
     padding: 0 20px;
@@ -102,15 +100,4 @@ h1 {
     border-radius: 12px;
     margin: 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.10);
-}
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    align-items: start;
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
-    
 }
